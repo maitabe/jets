@@ -10,6 +10,9 @@ var Jet = function (color, size) {
     console.log('lift off!');
   };
 
-};
+  this.barrelRoll = function () {
+    console.log('rolling!');
+  };
+}
 
 module.exports = Jet;
